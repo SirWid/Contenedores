@@ -14,7 +14,7 @@ WORKDIR repositorio
 RUN git clone https://github.com/SirWid/AES_ValidaArquitectura.git
 
 # Set our working folder #rutaSalidaDelProyecto
-WORKDIR docker-example/edu.javeriana.modelado.dockerApiService/bin/Release/PublishOutput
+WORKDIR docker-example/edu.javeriana.modelado.dockerApiService
 
 # The final instruction copies the site you published ea
 COPY ./bin/Release/PublishOutput/ /inetpub/wwwroot
